@@ -1,0 +1,91 @@
+.Easybank {
+    padding-bottom: 94px;
+
+    // .Easybank__inner-container
+
+    &__inner-container {}
+
+    // .Easybank__container
+
+    &__container {}
+
+    // .Easybank__top
+
+    &__top {
+        max-width: 635px;
+    }
+
+    // .Easybank__heading
+
+    &__heading {
+        font-family: 'Public Sans-thin';
+        margin-bottom: 16px;
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 64px;
+        letter-spacing: -0.714286px;
+        color: $black;
+    }
+
+    // .Easybank__tex
+
+    &__tex {
+        margin-bottom: 72px;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.25px;
+        color: $grey;
+    }
+
+    // .Easybank__bottom
+
+    &__bottom {}
+
+    // .Easybank__list
+
+    &__list {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    // .Easybank__item
+
+    &__item {
+        margin-right: 30px;
+        max-width: 255px;
+
+    }
+
+    // .Easybank__item-img
+
+    &__item-img {
+        margin-bottom: 40px;
+    }
+
+    // .Easybank__link
+
+    &__link {
+        text-decoration: none;
+    }
+
+    // .Easybank__item-title
+
+    &__item-title {
+        font-family: 'Public Sans-thin';
+        margin-bottom: 26px;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -0.428571px;
+        color: $black;
+    }
+
+    // .Easybank__item-tex
+
+    &__item-tex {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.25px;
+        color:$grey;
+    }
+}
